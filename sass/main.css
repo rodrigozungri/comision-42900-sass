@@ -1,0 +1,78 @@
+/* coment. que compila */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* vars */
+.header {
+  background-color: tomato;
+}
+.header .header__logo {
+  width: 100px;
+  height: auto;
+}
+.header .header__logo span {
+  font-family: sans-serif;
+  font-size: 30px;
+  background-color: black;
+  color: tomato;
+}
+.header .header__menu {
+  display: flex;
+}
+.header .header__menu ul {
+  background-color: blueviolet;
+}
+.header .header__menu ul li {
+  display: inline;
+  list-style: none;
+}
+.header .header__menu ul li a {
+  text-decoration: none;
+  color: red;
+}
+.header .header__menu ul li a:hover {
+  color: green;
+}
+.header .header__buscar {
+  width: 150px;
+}
+.header .header__buscar input {
+  width: 150px;
+  height: 75px;
+}
+.header .header__buscar input:focus {
+  background-color: greenyellow;
+}
+
+section {
+  background-color: tomato;
+}
+section h2 {
+  color: red;
+}
+section div {
+  border: 1px solid #333;
+}
+section div p {
+  font-size: 48px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-color: black;
+  }
+}
+/* operaciones */
+.container {
+  width: 85%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}/*# sourceMappingURL=main.css.map */

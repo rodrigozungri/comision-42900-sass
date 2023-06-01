@@ -1,0 +1,13 @@
+section {
+    $destacado: 48px;
+    background-color: $colorPrincipal;
+    h2 {
+        color: red;
+    }
+    div {
+        border: 1px solid #333;
+        p {
+            font-size: $destacado;
+        }
+    }
+}
